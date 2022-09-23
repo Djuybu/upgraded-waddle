@@ -1,0 +1,112 @@
+/* code chung cho cả web, siêu quan trọng*/
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@300;600&family=Manrope:wght@200;300;400;600;700&family=Roboto:ital@0;1&display=swap");
+* {
+  /* font-family: "Manrope", sans-serif; */
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+/* làm nền màu xanh */
+body {
+  background-image: linear-gradient(to right, #6bffab, #0a8270)
+}
+/* body */
+/* tạo các ô màu trắng để nhét nội dung vào cho sang */
+.container {
+  background-color: rgba(255, 255, 255, 0.864);
+  margin: 60px 3%;
+  box-shadow: 0 0 20px 0 rgb(0 0 0 / 20%);
+  border-radius: 10px;
+  height: fit-content;
+}
+.headline {
+  padding: 30px 0px;
+  text-align: center;
+  font-size: 40px;
+  color: #0dd044;
+}
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px  10%;
+}
+.flexbox {
+  padding: 0px 60px;  
+}
+/* grid của phần cho vay */
+.grid-container {
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(2, 40%);
+  grid-column-gap: 200px;
+  grid-row-gap: 100px;
+  justify-content: center;
+}
+.grid-container a {
+  text-decoration: none;
+  color: #000000;
+}
+.offer-img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.offer-name {
+  font-weight: 700;
+  font-size: 35px;
+}
+.offer-des {
+  font-size: 20px;
+}
+.news-grid {
+  padding: 60px ;
+}
+/* grid của phần tin bài */
+.news-grid{
+  display: grid;
+  grid-template-columns:  800px 400px ;
+  grid-row-gap: 80px ;
+  justify-content: space-between;
+  font-family: 'Manrope';
+}
+
+.news-grid a {
+  text-decoration: none;
+}
+/* item to đùng ở phần tin bài */
+.bigitem {
+  grid-row-start: 1;
+  grid-row-end: 4;
+}
+.news-big-img {
+  display: block;
+  width: 100% ;
+}
+.article-heading {
+  font-size: 60px;
+  font-weight: 600;
+}
+/* chỉnh các item nhỏ */
+.article-short {
+  font-size: 40px ;
+}
+.article-short a {
+  text-decoration: none;
+  color: black;
+}
+.small-article-heading{
+  font-size: 35px;
+  font-weight: 600;
+}
+.small-article-short {
+  font-size: 20px;
+}
+.small-article-short a {
+  text-decoration: none;
+  color: black;
+}
+.small-image {
+  display: block;
+  width: 100%;
+  height: auto;
+}

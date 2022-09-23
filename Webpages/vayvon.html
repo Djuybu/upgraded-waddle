@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSSs/style2.css">
+    <link rel="stylesheet" href="CSSs/styles.css">  
+    <link rel="stylesheet" href="CSSs/form-thechap.css">
+    <title>Vay vốn</title>
+</head>
+<body>
+    <div class="menu">
+        <a href="../index.html"> <img id="img1" src="images/icon.png" alt="logo"></a>
+           <ul id="tab">
+             <li class="home"><a id="me" href="../index.html">Trang Chủ</a></li>
+             <li class="lienHe"><a id="me" href="gioithieu.html">Giới thiệu</a></li>
+             <li class="tinTuc"><a id="me" href="tintuc.html">Tin Tức</a></li>
+             <li class="hoiDap"><a id="me" href="hoidap.html">Hỏi Đáp</a></li>
+           </ul>
+         <div id="button">
+           <div class="buttom1"><a href="signin.html">Đăng nhập</a></div>
+           <div class="buttom2" ><a href="membership-form.html">Đăng ký</a></div>
+         </div>
+    </div>
+    <div class="done">
+        <div class="done_alert">
+          <i class="fa-regular fa-circle-check"></i>
+          <div class="alert-box">Đăng nhập thành công!</div>
+          <a href="profile.html"><button>Tiếp tục</button></a>
+       </div>
+        </div>
+       <div  style="margin-top: 250px ;">
+ <div class="web-body">
+    <div class="container">
+        <div class="title"><h2 style="color: black;">THÔNG TIN ĐĂNG KÝ VAY THẾ CHẤP TÀI SẢN</h2></div>
+        <form id="form" class="form">
+            <div class="info">
+                <div class="line">
+                    <label for="">Họ và tên:</label><br>
+                    <input class="input" type="text" name="" id="fullname" style="width:50%;height:20px" maxlength="50" onclick="removeError()" placeholder="Nhập họ và tên">
+                    <div class="error" id="error-name">
+                        <!--  -->
+                    </div>
+                </div>
+                <div class="line">
+                    <label for="">Số điện thoại:</label><br>
+                    <input type="number" id="phoneNumber"style="width:40%;height:20px" maxlength="10" placeholder="Nhập số điện thoại">
+                    <div class="error" id="error-phonenumber"></div>
+                  </div>
+                <div class="line">
+                    <label for="">Ngày Sinh:</label>
+                    <div class="genders" >
+                        <input type="date" id="birthDay" style="width:40%;height:20px">
+                    </div>
+                    <span class="error" id="error-birthday">
+
+                    </span>
+                </div>
+                <div class="line">
+                    <label for="">Số tiền:</label><br>
+                    <input type="number" id="loanNumber"style="width:40%;height:20px" maxlength="10" placeholder="Nhập số điện thoại">
+                    <div class="error" id="error-loannumber"></div>
+                  </div>
+                <div class="line">
+                    <label for="">Email</label><br>
+                    <input class="input" type="text" name="" id="email" style="width:50%;height:20px" maxlength="50" onclick="removeError()" placeholder="Nhập họ và tên">
+                    <div class="error" id="error-email">
+
+                    </div>
+                </div>
+                <div class="line">
+                    <label for="">Chọn phương tiện thế chấp:</label><br>
+                    <select name="" id="assets" class="input" style="width:40%;height:20px" onclick="removeError()">
+                        <option value="" selected disabled>Chọn sản phẩm</option>
+                        <option value="1">Ô tô</option>
+                        <option value="1">Xe máy</option>
+                        <option value="1">Trang sức</option>
+                        <option value="1">CC</option>
+                    </select><br>
+                    <div class="error" id="error-assets"></div>
+                </div>
+                
+            </div>
+            
+              
+        </form>
+    </div>
+    <div class="submit_button">
+        <button type="submit" id="btn" onclick="removeError()">XÁC NHẬN</button>
+    </div>
+    </div>
+ </div>
+ <script src="JSs/chovay.js"></script>
+</body>
+</html>

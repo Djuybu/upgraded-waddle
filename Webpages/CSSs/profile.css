@@ -1,0 +1,159 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    background-color: white;
+    align-items: center;
+}
+.profile_button {
+    font-size: 18px;
+    background-color:#208d44;
+    border: 2px solid #208d44;
+    border-radius: 5px;
+    color: white;
+    padding: 4px;
+    margin: 0px 12px;
+    cursor: pointer;
+}
+.profile_button:hover{
+    background-color:#13b340;
+    border: 2px solid #13b340;
+}
+.personal-content {
+    display: flex;
+    /* margin: 20px 0px; */
+    padding: 20px 0px;
+    
+}
+.personal-inform {
+    width: 350px;
+    background-color: white;
+    padding: 20px 0px;
+    height: 450px;
+    position: absolute;
+    top: 60;
+}
+.section-1 {
+    display: flex;
+    padding: 0px 3%;
+    align-items: center;
+}
+.ava {
+    width: 50px;
+    height: auto;
+}
+.userName {
+    font-size: 20px;
+    font-family: 'Roboto',serif;
+}
+.stat1 {
+    display: flex;
+    margin: 0px 8px;
+    justify-content: space-between;
+}
+.section-2 {
+   width: 45%;
+   text-align: center;
+   padding: 5px;
+   margin: 5px;
+   border: 3px solid  rgb(119, 198, 110);;
+   /* box-shadow: 1px 2px 2px 1px ; */
+   border-radius: 10px;
+   /* background-color:   rgb(119, 198, 110); */
+}
+.section-2 h2 {
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'Roboto',sans-serif;
+}
+.personal-inform h1 {
+    font-family: 'Roboto', serif    ;
+    font-size: 20px;
+    font-weight: 550;
+    text-align: center;
+    color: #0dd044;
+}
+.num-all{
+    font-size: 45px;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 700;
+} 
+.num-done {
+    font-size: 45px;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 700;
+    color: #0dd044;
+}
+.debt-inform {
+    margin: 0px 20px;
+   margin-left:  440px;
+   background-color: white;
+   width: 1200px;
+   padding: 20px 20px;
+   border-radius: 25px;
+}
+.debt-headline {    
+    font-size: 65px;
+    font-family: 'Manrope';
+    color: #0dd044;
+    /* font:  */
+}
+.debt-content {
+    display: flex;
+    padding: 20px 0px;
+    justify-content: space-between;
+}
+.debt-name {
+    font-size: 30px;
+    font-family: 'Roboto';
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.debt-box-done {
+    padding: 10px 5px;
+    margin: 20px 0px;
+    border-radius: 18px;
+    border: 5px solid #0dd044;
+}
+.debt-box-alert{
+    padding: 10px 5px;
+    margin: 20px 0px;
+    border-radius: 18px;
+    border: 5px solid #d71b1b;
+}
+.detail {
+ justify-content: space-between;
+}
+.detail-text{
+    font-size: 20px;
+    font-family: 'Roboto';
+    padding: 3px;
+}
+.detail-text-alert {
+    font-size: 20px;
+    font-family: 'Roboto';
+    padding: 3px;
+    color: #d71b1b;
+    font-style: italic;
+}
+.detail-text span {
+    font-weight: 700;
+}
+.debt-box {
+    padding: 10px 5px;
+    margin: 20px 0px;
+    border: 2px solid black;
+    border-radius: 18px;
+}
+.progress {
+    margin: 10px 60px;
+    padding: 15px   ;
+    border: 6px solid #0dd044;
+    border-radius: 30%;
+    text-align: center;
+    font-size: 30px;
+}
+.progress-num {
+    font-size: 55px;
+    color: #0dd044;
+}
